@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Data & generated files
+*.json
+*.csv
+!expense_tracker/expenses.csv
+expense_summary_report.txt
+demo_expenses.csv
+test_expenses.csv
+test_students.json
+
 # C extensions
 *.so
 
@@ -29,10 +38,6 @@ MANIFEST
 # PyInstaller
 *.manifest
 *.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
